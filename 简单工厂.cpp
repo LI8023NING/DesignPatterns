@@ -1,3 +1,7 @@
+/*
+* 模式介绍:https://www.codecomeon.com/index
+*/
+
 #include<iostream>
 
 //定义抽象产品类
@@ -104,6 +108,8 @@ public:
 
 // 简单工厂测试
 int main() {
+	std::cout << "https://www.codecomeon.com/index" << std::endl;
+	
     //定义工厂类对象
     AbstractBallProduct* product = nullptr;
     product = SimpleFactory::createProduct(0);

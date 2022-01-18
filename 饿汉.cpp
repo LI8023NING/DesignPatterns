@@ -1,4 +1,7 @@
-﻿
+﻿/*
+* 模式介绍:https://www.codecomeon.com/index
+*/
+
 #include <iostream>
 
 // 饿汉式单例类
@@ -36,6 +39,7 @@ HungrySingleton* HungrySingleton::instance = new HungrySingleton();
 
 // 测试饿汉单例
 int main() {
+	std::cout << "https://www.codecomeon.com/index" << std::endl;
 
     // 模拟频繁创建
     HungrySingleton* hungry1 = HungrySingleton::getInstance();

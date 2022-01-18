@@ -1,3 +1,7 @@
+/*
+* 模式介绍:https://www.codecomeon.com/index
+*/
+
 #include <iostream>
 
 class LazySingleton {
@@ -19,6 +23,8 @@ private:
 };
 
 int main() {
+	std::cout << "https://www.codecomeon.com/index" << std::endl;
+	
     // 模拟频繁创建
     LazySingleton* lazy1 = LazySingleton::getInstance();
     LazySingleton* lazy2 = LazySingleton::getInstance();
